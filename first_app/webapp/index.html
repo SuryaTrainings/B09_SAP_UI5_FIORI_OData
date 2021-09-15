@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>UI5 Framework - Loading & DOM</title>
+        
+        <script
+            id="sap-ui-bottstrap"
+            src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+            data-sap-ui-theme ="sap_fiori_3_dark"
+            data-sap-ui-libs  = "sap.m"    
+        >
+        </script>
+
+        <script>
+            var oInp = new sap.m.Input("idInp");
+            oInp.placeAt("inputPlace");     
+
+            var oButton = new sap.m.Button("idBtn",{
+                text: "UI5 Tutorial",
+                press: function(){
+                    alert("Website under construction");
+                }
+            });
+            oButton.placeAt("buttonPlace");
+        </script>    
+
+    </head>
+    <body>
+        <div id="inputPlace"></div>
+        <div id="buttonPlace"></div>
+    </body>
+</html>
