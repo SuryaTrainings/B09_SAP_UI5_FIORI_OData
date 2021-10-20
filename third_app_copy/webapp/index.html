@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Third UI5 Application</title>
+    <script id="sap-ui-bootstrap" 
+        src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+        data-sap-ui-theme="sap_fiori_3_dark" 
+        data-sap-ui-libs="sap.m" 
+        data-sap-ui-resourceroots='{
+                "home": "./"
+            }'>
+    </script>
+
+    <script>
+        var oView = new sap.ui.view({
+            viewName: "home.view.Main",
+            type: "JS"
+        });
+        oView.placeAt("sapUiBody");
+    </script>
+
+</head>
+
+<body id="sapUiBody">
+</body>
+
+</html>
