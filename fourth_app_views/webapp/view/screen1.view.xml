@@ -1,0 +1,13 @@
+<mvc:View controllerName = "home.controller.screen1"
+      xmlns         = "sap.m"
+      xmlns:mvc     = "sap.ui.core.mvc"
+      xmlns:form    = "sap.ui.layout.form"
+>
+<form:SimpleForm >
+    <form:title> text="Employee details" </form:title>
+    <form:content>
+        <Input placeholder="Enter your name" width="70%"></Input>
+        <Button text="Submit"></Button>
+    </form:content>
+</form:SimpleForm>
+</mvc:View>
